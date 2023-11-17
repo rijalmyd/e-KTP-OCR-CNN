@@ -70,10 +70,9 @@ time_elapsed | Waktu yang pemrosesan yang dibutuhkan (detik)
 }
 ```
 
-### Notes for KTP Detection using YOLO
-1. Uncomment on line 7 and 29 in ```api.py```
-2. Download trained weights [here](https://drive.google.com/open?id=1acjcOcTCHUjBg-1CVvoFD59nUp9vfeDL) and put in data/yolo/ folder
-3. Change file name on line 13 in ```yolo_detect.py```
+### Notes for KTP Detection using CNN
+1. Create new folder, data/cnn
+2. Insert model.h5 in that folder. You can email me for the model.h5
 4. Run the program
 
 ## Acknowledgments

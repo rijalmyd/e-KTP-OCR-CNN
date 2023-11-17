@@ -62,11 +62,28 @@ time_elapsed | Waktu yang pemrosesan yang dibutuhkan (detik)
 ### Success Response Example
 ```
 {
-  "nik": "1203040101900001"
-  "nama" : "JOHN DOE"
-  "tempat_lahir" : "JAKARTA"
-  "tgl_lahir" : "01-01-1990"
-  "time_elapsed" : "0.675"
+    "error": false,
+    "message": "Proses OCR Berhasil",
+    "result": {
+        "nik": "1234567890123456",
+        "nama": "RIJAL MUHYIDIN",
+        "tempat_lahir": "PALEMBANG",
+        "tgl_lahir": "10-10-1999",
+        "jenis_kelamin": "LAKI-LAKI",
+        "agama": "ISLAM",
+        "status_perkawinan": "BELUM KAWIN",
+        "pekerjaan": "PELAJAR/MAHASISWA",
+        "kewarganegaraan": "WNI",
+        "alamat": {
+            "name": "DUSUN 1 OGAN 5",
+            "rt_rw": "001/002",
+            "kel_desa": "SUNGAI ARE",
+            "kecamatan": "ALANG-ALANG LEBAR",
+            "kabupaten": "OGAN ILIR",
+            "provinsi": "SUMATERA SELATAN"
+        },
+        "time_elapsed": "6.306"
+    }
 }
 ```
 
